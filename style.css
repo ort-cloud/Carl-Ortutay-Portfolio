@@ -58,6 +58,11 @@ section:nth-child(even) {
   p {
     margin: 20px;
   }
+
+  .projects img {
+    height: 150px;
+    width: 150px;
+  }
 }
 
 /* Tablet ----------- */
