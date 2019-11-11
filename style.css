@@ -96,8 +96,61 @@ section:nth-child(even) {
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   /* Styles */
+  nav {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #nav-title {
+    margin: 0;
+    width: 100%;
+    text-align: start;
+  }
+
+  .logo {
+    height: auto;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   #banner-title {
     display: none;
+  }
+
+  #profile-image {
+    height: 33%;
+    width: 33%;
+    float: left;
+    clear: left;
+  }
+
+  .projects {
+    overflow: auto;
+  }
+
+  .projects img {
+    height: 33%;
+    width: 33%;
+  }
+
+  #first-project img {
+    float: right;
+    clear: left;
+  }
+
+  #second-project img {
+    float: left;
+    clear: left;
+  }
+
+  #third-project img {
+    float: right;
+    clear: left;
   }
 }
 
