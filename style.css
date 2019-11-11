@@ -38,21 +38,45 @@ section:nth-child(even) {
   background-color: #ddd;
 }
 
+/* Mobile ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 599px) {
-  /* Styles */
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #nav-title {
+    display: none;
+  }
 }
 
 /* Tablet ----------- */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
   /* Styles */
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #nav-title {
+    display: none;
+  }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   /* Styles */
+  #banner-title {
+    display: none;
+  }
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1800px) {
   /* Styles */
+  #banner-title {
+    display: none;
+  }
 }
