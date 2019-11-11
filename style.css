@@ -49,6 +49,15 @@ section:nth-child(even) {
   #nav-title {
     display: none;
   }
+
+  #profile-image {
+    height: 150px;
+    width: 150px;
+  }
+
+  p {
+    margin: 20px;
+  }
 }
 
 /* Tablet ----------- */
