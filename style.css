@@ -51,8 +51,8 @@ section:nth-child(even) {
   }
 
   #profile-image {
-    height: 150px;
-    width: 150px;
+    height: 10em;
+    width: 10em;
   }
 
   p {
@@ -76,6 +76,20 @@ section:nth-child(even) {
 
   #nav-title {
     display: none;
+  }
+
+  #profile-image {
+    height: 10em;
+    width: 10em;
+  }
+
+  p {
+    margin: 20px;
+  }
+
+  .projects img {
+    height: 150px;
+    width: 150px;
   }
 }
 
