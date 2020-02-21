@@ -42,15 +42,6 @@ section:nth-child(even) {
     justify-content: space-around;
   }
 
-  /* #email-logo {
-    position: absolute;
-    right: 5;
-    top: 3;
-    align-self: center;
-  } */
-
-
-
   .nav-title {
     display: none;
   }
@@ -99,10 +90,9 @@ section:nth-child(even) {
     display: inline-block;
     position: absolute;
     left: 10;
-    
+
     bottom: 1;
     margin: 0;
-
   }
 
   .logo {
@@ -111,11 +101,6 @@ section:nth-child(even) {
     margin-right: 5px;
     padding-right: 5px;
   }
-
-  /* #email-logo {
-    position: relative;
-    left: 10;
-  }  */
 
   #banner-title {
     display: none;
