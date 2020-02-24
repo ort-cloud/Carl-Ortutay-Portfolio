@@ -10,12 +10,13 @@
 
   <body>
     <nav role="navigation">
-      <!-- TODO: Make images actual links -->
       <h1 class='nav-title' id="nav-title">Carl Ortutay</h1>
-      <img src="assets/github-logo.png" class="logo" id="github-logo" title="github-logo" alt="github-logo">
-      <img src="assets/linkedin-logo.png" class="logo" id="linkedin-logo" title="linkedin-logo" alt="linkedin-logo">
-      <img src="assets/black-back-closed-envelope-shape.png" class="logo" id="email-logo" title="email-logo"
-        alt="email-logo">
+      <a href="https://github.com/ort-cloud"><img src="assets/github-logo.png" class="logo" id="github-logo"
+          title="github-logo" alt="github-logo"></a>
+      <a href="https://www.linkedin.com/in/carl-ortutay"><img src="assets/linkedin-logo-black.png" class="logo"
+          id="linkedin-logo" title="linkedin-logo" alt="linkedin-logo"></a>
+      <a href="mailto:carl.ortutay@gmail.com"><img src="assets/email-outline.png" class="logo" id="email-logo"
+          title="email-logo" alt="email-logo"></a>
     </nav>
 
     <main role="main">
@@ -23,31 +24,57 @@
         <h1 id="banner-title">Carl Ortutay</h1>
         <img src="https://consequenceofsound.net/wp-content/uploads/2015/12/jar-jar.jpg?quality=80&w=807"
           alt="jar-jar binks" id="profile-image">
-        <h2>About me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h2>About this guy</h2>
+        <p>I am a web developer and graduate of Thinkful’s Engineering Immersion program. What I like about being a
+          developer is the never ending set of problems and navigating my way to their solutions. I believe it is
+          through frustration that self realization is found. Coding, for me, personifies this belief and the journey is
+          always far more satisfying than the result
+        </p>
+        <p>
+          When not locked into finding solutions I can be found cruising down a snowy mountain or a winding steep road
+          on some form of board, immersing myself in Star Wars lore, or getting lost in an invigorating DnD quest. As a
+          person with never ending curiosity I am currently working to understand the basics of astrophysics. Which
+          makes coding seem like a walk in the park.
+        </p>
       </header>
 
       <section class="projects" id="first-project">
-        <h3>Project 1 title</h3>
-        <img src="https://www.rosssolar.com/wp-content/uploads/2017/08/image-placeholder.jpg" alt="placeholder image">
-        <p>Description of project</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <b><p>[Tech Used Placeholder]</p></b>
-        <!-- TODO: Make actual links -->
-        <a href="">Github</a> |
-        <a href="">Live</a>
-        
+        <h3>Star Wars Quizz App</h3>
+        <img src="assets/quiz-app-image.png" alt="Image of quiz app">
+        <p>A simple web app testing the users knowledge of the first three Star Wars Films. The app uses a combination
+          of HTML5, CSS3, and JavaScript with the assistance of the jQuery library. The user is taken through a series
+          of 10 questions. With each selection the user is then given feedback informing them if they got the answer
+          correct, if not they are given the correct answer. The users score is calculated throughout and will lead them
+          to one of three responses depending upon the accumulated score.</p>
+
+        <section class="tech-used-ctn">
+          <img class="tech-used-item-jquery" src="assets/jquery-blue.png" alt="jquery-logo">
+          <img class="tech-used-item-js" src="assets/javascript-yellow.png" alt="javascript-logo">
+          <img class="tech-used-item-html" src="assets/html5-red.png" alt="html-logo">
+          <img class="tech-used-item-css" src="assets/css3-blue.png" alt="css-logo">
+        </section>
+        <section class='project-links project-links-1'>
+          <a href="https://github.com/ort-cloud/star-wars-quiz-app">Github</a> |
+          <a href="https://ort-cloud.github.io/star-wars-quiz-app/">Live</a>
+        </section>
       </section>
 
       <section class="projects" id="second-project">
-        <h3>Project 2 title</h3>
-        <img src="https://www.rosssolar.com/wp-content/uploads/2017/08/image-placeholder.jpg" alt="placeholder image">
-        <p>Description of project</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <b><p>[Tech Used Placeholder]</p></b>
-        <!-- TODO: Make actual links -->
-        <a href="">Github</a> |
-        <a href="">Live</a>
+        <h3>The ISS Scout</h3>
+        <img src="assets/iss-scout-screenshot.png" alt="Image of ISS Scout">
+        <p>Using jQuery, HTML5, and CSS 3 this minimalist, one-page, app invites you to explore the final frontier. Using calls to outside APIs the app allows visitors to enter their address, or another point of interest, and receive a list of times for potential sightings of the International Space Station. Whether you're planning a date or spending time with friends and family, our application's mission is to bring about wonder and excitement.</p>
+        
+        <section class="tech-used-ctn">
+          <img class="tech-used-item-jquery" src="assets/jquery-blue.png" alt="jquery-logo">
+          <img class="tech-used-item-js" src="assets/javascript-yellow.png" alt="javascript-logo">
+          <img class="tech-used-item-html" src="assets/html5-red.png" alt="html-logo">
+          <img class="tech-used-item-css" src="assets/css3-blue.png" alt="css-logo">
+        </section>
+        <section class='project-links project-links-2'>
+          <a href="https://github.com/ort-cloud/The-ISS-Scout">Github</a> |
+          <a href="https://ort-cloud.github.io/The-ISS-Scout/">Live</a>
+        </section>
+
       </section>
 
       <section class="projects" id="third-project">
@@ -55,7 +82,9 @@
         <img src="https://www.rosssolar.com/wp-content/uploads/2017/08/image-placeholder.jpg" alt="placeholder image">
         <p>Description of project</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <b><p>[Tech Used Placeholder]</p></b>
+        <b>
+          <p>[Tech Used Placeholder]</p>
+        </b>
         <!-- TODO: Make actual links -->
         <a href="">Github</a> |
         <a href="">Live</a>
