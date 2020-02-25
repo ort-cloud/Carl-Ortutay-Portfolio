@@ -121,9 +121,9 @@ img[src="assets/email-outline.png"] {
     width: 25px;
   }
 
-  .item-css {
-    height: 26px;
-    width: 26px;
+  img[src="assets/css3-blue.png"] {
+    height: 25px;
+    width: 25px;
   }
 
   .project-links {
@@ -151,10 +151,10 @@ img[src="assets/email-outline.png"] {
     justify-content: center;
   }
 
-  .tech-used,
+  /* .tech-used,
   .item-css {
     margin: 0.5%;
-  }
+  } */
 }
 
 /* Desktops and laptops ----------- */
@@ -196,17 +196,18 @@ img[src="assets/email-outline.png"] {
     width: 33%;
   }
 
+  /* ! First project */
   #star-wars {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
-  #star-wars img {
-    /* float: right;
-    clear: left; */
+  .star-wars-img {
     order: 1;
-    flex-grow: 2;
+    flex-grow: 1;
+    padding-right: 3%;
   }
 
   #star-wars p {
@@ -217,15 +218,15 @@ img[src="assets/email-outline.png"] {
 
   .project-links-1 {
     order: 2;
+    flex-basis: 50%;
   }
 
-  .ctn-1 {
-    /* float: right;
-    clear: right; */
+  .item {
     order: 3;
-    justify-self: right;
+    margin: auto;
   }
 
+  /* ! Second project */
   #iss-scout img {
     float: left;
     clear: left;
@@ -237,8 +238,8 @@ img[src="assets/email-outline.png"] {
   }
 
   img[src="assets/jquery-blue.png"] {
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
   }
 
   img[src="assets/javascript-yellow.png"] {
@@ -252,7 +253,7 @@ img[src="assets/email-outline.png"] {
   }
 
   img[src="assets/css3-blue.png"] {
-    height: 26px;
-    width: 26px;
+    height: 24px;
+    width: 24px;
   }
 }
