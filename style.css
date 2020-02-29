@@ -5,6 +5,9 @@
   border: 0;
 }
 
+/* font-family: 'Exo 2', ;
+font-family: 'Ubuntu', ; */
+
 html {
   position: relative;
 }
@@ -15,10 +18,17 @@ body {
   text-align: center;
   min-height: 100vh;
   padding-bottom: 2.5rem;
+  font-family: "Ubuntu";
 }
 
 nav {
   border-bottom: 1px solid black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Exo 2";
 }
 
 footer {
@@ -168,9 +178,9 @@ img[src="assets/email-outline.png"] {
   }
 
   /* ! First project */
-  .project-1{
-    margin-top: 15%;
-    margin-bottom: 15%;
+  .project-1 {
+    margin-top: 25%;
+    margin-bottom: 25%;
   }
 
   #star-wars {
@@ -205,9 +215,9 @@ img[src="assets/email-outline.png"] {
   }
 
   /* ! Second project */
-  .project-2{
-    margin-top: 15%;
-    margin-bottom: 15%;
+  .project-2 {
+    margin-top: 25%;
+    margin-bottom: 25%;
   }
 
   #iss-scout {
