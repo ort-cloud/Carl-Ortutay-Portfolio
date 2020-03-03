@@ -21,10 +21,6 @@ body {
   font-family: "Ubuntu";
 }
 
-nav {
-  border-bottom: 1px solid black;
-}
-
 h1,
 h2,
 h3 {
@@ -35,23 +31,12 @@ h3 {
   display: none;
 }
 
-img[src="assets/github-logo.png"] {
-  height: 22px;
-  width: 22px;
-}
-
-img[src="assets/linkedin-logo-black.png"] {
-  height: 26px;
-  width: 26px;
-}
-
-img[src="assets/email-outline.png"] {
-  height: 20px;
-  width: 24px;
-}
-
 #third-project {
   display: none;
+}
+
+a:hover{
+  cursor: pointer;
 }
 
 /* Mobile ----------- */
@@ -114,26 +99,6 @@ img[src="assets/email-outline.png"] {
   .iss-scout-img {
     height: 33vh;
     width: 90vw;
-  }
-
-  img[src="assets/jquery-blue.png"] {
-    height: 24px;
-    width: 24px;
-  }
-
-  img[src="assets/javascript-yellow.png"] {
-    height: 24px;
-    width: 24px;
-  }
-
-  img[src="assets/html5-red.png"] {
-    height: 25px;
-    width: 25px;
-  }
-
-  img[src="assets/css3-blue.png"] {
-    height: 25px;
-    width: 25px;
   }
 
   .project-links {
@@ -251,6 +216,8 @@ img[src="assets/email-outline.png"] {
   .project-links-1 {
     order: 2;
     flex-basis: 50%;
+    display: flex;
+    justify-content: center;
   }
 
   .item-1 {
@@ -287,30 +254,12 @@ img[src="assets/email-outline.png"] {
   .project-links-2 {
     order: 2;
     flex-basis: 50%;
+    display: flex;
+    justify-content: center;
   }
 
   .item-2 {
     order: 3;
     margin: auto;
-  }
-
-  img[src="assets/jquery-blue.png"] {
-    height: 24px;
-    width: 24px;
-  }
-
-  img[src="assets/javascript-yellow.png"] {
-    height: 22px;
-    width: 22px;
-  }
-
-  img[src="assets/html5-red.png"] {
-    height: 25px;
-    width: 25px;
-  }
-
-  img[src="assets/css3-blue.png"] {
-    height: 24px;
-    width: 24px;
   }
 }
