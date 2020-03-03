@@ -35,7 +35,7 @@ h3 {
   display: none;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
 }
 
@@ -65,7 +65,7 @@ a:hover{
     display: none;
   }
 
-  #banner-title{
+  #banner-title {
     margin-top: 20%;
     font-size: 12vw;
   }
@@ -76,7 +76,7 @@ a:hover{
     margin-right: 5%;
   }
 
-  header p{
+  header p {
     margin-top: auto;
   }
 
@@ -113,7 +113,7 @@ a:hover{
     line-height: 1.5;
   }
 
-  #banner-title{
+  #banner-title {
     margin-top: auto;
     font-size: 7vw;
   }
@@ -138,10 +138,6 @@ a:hover{
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
-  /* body {
-    margin: 1%;
-  } */
-
   nav {
     display: none;
   }
