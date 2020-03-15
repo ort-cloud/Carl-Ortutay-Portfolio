@@ -7,17 +7,21 @@
 
 html {
   position: relative;
+  min-height: 100vh;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   background-color: slategrey;
   text-align: center;
-  min-height: 100vh;
-  padding-bottom: 2.5rem;
+  
   font-family: "Ubuntu";
   font-size: 16px;
   line-height: 1.5;
+}
+
+main{
+  padding-bottom: 2.5rem;
 }
 
 header {
@@ -39,6 +43,13 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
 .banner-section {
@@ -64,11 +75,9 @@ header p {
   margin-top: 10%;
 }
 
-.projcet-star-wars {
-  margin: 10% 5%;
-}
-
-.projcet-iss {
+.project-pizza,
+.project-star-wars,
+.project-iss {
   margin: 10% 5%;
 }
 
@@ -85,7 +94,8 @@ header p {
   width: 90%;
 }
 
-.iss-scout-img {
+.iss-scout-img,
+.pizza-img {
   height: 60%;
   width: 90%;
 }
@@ -107,7 +117,7 @@ a:hover {
     margin-top: 2.5%;
   }
 
-  .projcet-star-wars {
+  .project-pizza {
     margin-top: auto;
     padding-top: 2.5%;
   }
@@ -128,7 +138,8 @@ a:hover {
     font-size: 7vw;
   }
 
-  .projcet-star-wars {
+  .project-star-wars,
+  .project-pizza {
     margin-bottom: 25%;
   }
 }
@@ -177,8 +188,8 @@ a:hover {
     font-size: large;
   }
 
-  /* ! First project */
-  .projcet-star-wars {
+  .project-star-wars,
+  .project-pizza {
     padding-top: 0;
     margin-bottom: 25%;
   }
@@ -219,30 +230,39 @@ a:hover {
     margin: auto;
   }
 
-  /* ! Second project */
-  .projcet-iss {
+  .project-iss {
     margin-top: 5%;
   }
 
-  #iss-scout {
+  #iss-scout,
+  #pizza {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .iss-scout-img-tag {
+  .iss-scout-img-tag,
+  .pizza-img-tag {
     order: 1;
     flex-grow: 1;
     width: 50%;
   }
 
-  .iss-scout-img {
+  .iss-scout-img,
+  .pizza-img {
     height: 100%;
     width: 100%;
   }
 
   #iss-scout p {
+    order: -1;
+    width: 50%;
+    text-align: left;
+    padding-left: 1%;
+  }
+
+  #pizza p {
     order: -1;
     width: 50%;
     text-align: left;
@@ -260,10 +280,18 @@ a:hover {
     order: 3;
     margin: auto;
   }
+
+  .icon-group {
+    display: flex;
+    order: 3;
+    width: 35%;
+    margin: auto;
+    justify-content: space-between;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-  .projcet-star-wars {
+  .project-star-wars {
     margin-bottom: 25%;
   }
 
@@ -273,7 +301,8 @@ a:hover {
 }
 
 @media only screen and (min-width: 1920px) {
-  h2, h3 {
+  h2,
+  h3 {
     font-size: 1.75vw;
   }
 

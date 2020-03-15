@@ -5,6 +5,7 @@
   <title>Carl Ortutay's Portfolio</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/assets/death-star16x16.png"/>
   <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -17,7 +18,7 @@
         class="logo" title="Check Out Carl's Awesome Github" alt="Github Logo"></a>
     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/carl-ortutay"><img
         src="assets/linkedin.png" class="logo" title="Check Out Carl's Linkedin Profile" alt="Linkedin Logo"></a>
-    <a target="_blank" rel="noopener noreferrer" href="mailto:carl.ortutay@gmail.com"><img src="assets/email.png"
+    <a target="_blank" rel="noopener noreferrer" href="mailto:carl.ortutay@gmail.com"><img src="assets/gmail.png"
         class="logo" title="Send Carl an Email" alt="Email Logo"></a>
   </nav>
   <main>
@@ -29,28 +30,65 @@
               class="logo" title="Check Out Carl's Awesome Github" alt="Github Logo"></a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/carl-ortutay"><img
               src="assets/linkedin.png" class="logo" title="Check Out Carl's Linkedin Profile" alt="Linkedin Logo"></a>
-          <a target="_blank" rel="noopener noreferrer" href="mailto:carl.ortutay@gmail.com"><img src="assets/email.png"
-              class="logo" title="Send Carl an email" alt="Email Logo"></a>
+          <a target="_blank" rel="noopener noreferrer" href="mailto:carl.ortutay@gmail.com"><img src="assets/gmail.png"
+              class="logo" title="Send Carl an Email" alt="Email Logo"></a>
         </span>
       </section>
       <h2>About this guy</h2>
-      <p>I am a web developer and graduate of Thinkful’s Engineering Immersion program. Working as a developer is a rewarding and enjoyable endeavor with its required problem-solving, compelling me to navigate my way to practical solutions while enthusiastically  working with a team of great programmers. I believe it is through frustration that self realization is found. Coding, for me, personifies this belief and the journey is always far more satisfying than the result.
+      <p>I am a web developer and graduate of Thinkful’s Engineering Immersion program. Working as a developer is a
+        rewarding and enjoyable endeavor with its required problem-solving, compelling me to navigate my way to
+        practical solutions while enthusiastically working with a team of great programmers. I believe it is through
+        frustration that self realization is found. Coding, for me, personifies this belief and the journey is always
+        far more satisfying than the result.
       </p>
       <p>
-        When I'm not working to improve myself as a programmer, I can be found cruising down a snowy mountain or a winding steep road on some form of board, immersing myself in Star Wars lore, or getting lost in an invigorating DnD quest. As a person with never ending curiosity I am currently working to understand the basics of astrophysics, which makes coding seem like a walk in the park.
+        When I'm not working to improve myself as a programmer, I can be found cruising down a snowy mountain or a
+        winding steep road on some form of board, immersing myself in Star Wars lore, or getting lost in an invigorating
+        DnD quest. As a person with never ending curiosity I am currently working to understand the basics of
+        astrophysics, which makes coding seem like a walk in the park.
       </p>
     </header>
 
     <section class="projects">
       <h2 class="projects-title">Some Gnarly Projects</h2>
-      <section class="projcet-star-wars">
+
+      <!--? FITNESS PIZZA -->
+      <section class="project-pizza">
+        <h3>Fitness Pizza</h3>
+        <div class="pizza" id="pizza">
+          <a target="_blank" rel="noopener noreferrer" class="pizza-img-tag" href="https://fitnesspizza.now.sh/"><img
+              src="assets/fitness-pizza-image.png" alt="Image of Fitness Pizza" class="pizza-img"></a>
+          <p>No matter your education level Fitness Pizza aims to join two former adversaries, pizza and fitness,
+            together to help you slice your way into better health. <b>React</b> and <b>CSS</b> take care of the front
+            of the house, while <b>Node</b> and <b>PostgreSQL</b> hold down the back. All a user need do is tell Fitness
+            Pizza how hard, or soft, they trained that day, and it bakes all that data into a tangible, understandable,
+            result: Slices of delicious pizza!
+          </p>
+          <section class="icon-group">
+            <img class="tech-used react" src="assets/react.png" alt="React Logo">
+            <img class="tech-used css" src="assets/css.png" alt="CSS Logo">
+            <img class="tech-used node" src="assets/nodejs.png" alt="Node Logo">
+            <img class="tech-used postsql" src="assets/postgresql.png" alt="PostgreSQL Logo">
+          </section>
+          <span class='project-links project-links-2'>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/ort-cloud/fitness-pizza-client"><img
+                src="assets/github.png" class="logo" title="Project github" alt="Github Logo"></a> |
+            <a target="_blank" rel="noopener noreferrer" href="https://fitnesspizza.now.sh/"><img src="assets/link.png"
+                class="logo" title="Live link" alt="Link Logo"></a>
+          </span>
+        </div>
+      </section>
+
+      <!--? STAR WARS -->
+      <section class="project-star-wars">
         <h3>Star Wars Quiz App</h3>
         <div class="star-wars" id="star-wars">
           <a target="_blank" rel="noopener noreferrer" class="star-wars-img-tag"
             href="https://ort-cloud.github.io/star-wars-quiz-app/"><img src="assets/quiz-app-image.png"
               alt="Image of quiz app" class="star-wars-img"></a>
-          <p>A simple web app testing the user's knowledge of the first three Star Wars Films. The app uses a combination
-            of <b>jQuery</b>, <b>JavaScript</b>, <b>HTML5</b>, and <b>CSS3</b>. The user is taken through a series
+          <p>A simple web app testing the user's knowledge of the first three Star Wars Films. The app uses a
+            combination
+            of <b>jQuery</b>, <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b>. The user is taken through a series
             of 10 questions. With each selection the user is then given feedback informing them if they got the answer
             correct, if not they are given the correct answer. The user's score is calculated throughout and will lead
             them to one of three responses depending upon the accumulated score.</p>
@@ -67,22 +105,25 @@
         </div>
       </section>
 
-      <section class="projcet-iss">
+      <!--? ISS SCOUT -->
+      <section class="project-iss">
         <h3>The ISS Scout</h3>
         <div class="iss-scout" id="iss-scout">
           <a target="_blank" rel="noopener noreferrer" class="iss-scout-img-tag"
             href="https://ort-cloud.github.io/The-ISS-Scout/"><img src="assets/iss-scout-screenshot.png"
               alt="Image of ISS Scout" class="iss-scout-img"></a>
-          <p>Using <b>jQuery</b>, <b>JavaScript</b>, <b>HTML5</b>, and <b>CSS3</b> this minimalist, one-page, app
+          <p>Using <b>jQuery</b>, <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b> this minimalist, one-page, app
             invites you to explore the final frontier. Using calls to outside APIs the app allows visitors to enter
             their address, or another point of interest, and receive a list of times for potential sightings of the
             International Space Station. Whether you're planning a date or spending time with friends and family, our
             application's mission is to bring about wonder and excitement.
           </p>
-          <img class="tech-used item-2 jquery" src="assets/jquery.png" alt="jQuery Logo">
-          <img class="tech-used item-2 js" src="assets/javascript.png" alt="Javascript Logo">
-          <img class="tech-used item-2 html" src="assets/html.png" alt="HTML Logo">
-          <img class="tech-used item-2 css" src="assets/css.png" alt="CSS Logo">
+          <section class="icon-group">
+            <img class="tech-used jquery" src="assets/jquery.png" alt="jQuery Logo">
+            <img class="tech-used js" src="assets/javascript.png" alt="Javascript Logo">
+            <img class="tech-used html" src="assets/html.png" alt="HTML Logo">
+            <img class="tech-used css" src="assets/css.png" alt="CSS Logo">
+          </section>
           <span class='project-links project-links-2'>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/ort-cloud/The-ISS-Scout"><img
                 src="assets/github.png" class="logo" title="Project github" alt="Github Logo"></a> |
@@ -92,8 +133,9 @@
         </div>
       </section>
     </section>
-
   </main>
+  <footer><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1veR93TLnUPi1rnTXVXkSkdwIrI-lDLJU/view?usp=sharing"><img src="assets/death-star-variant.png" alt="Death Star Icon"></a></footer>
 </body>
+
 
 </html>
