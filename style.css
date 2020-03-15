@@ -64,11 +64,11 @@ header p {
   margin-top: 10%;
 }
 
-.project-1 {
+.projcet-star-wars {
   margin: 10% 5%;
 }
 
-.project-2 {
+.projcet-iss {
   margin: 10% 5%;
 }
 
@@ -107,7 +107,7 @@ a:hover {
     margin-top: 2.5%;
   }
 
-  .project-1 {
+  .projcet-star-wars {
     margin-top: auto;
     padding-top: 2.5%;
   }
@@ -128,7 +128,7 @@ a:hover {
     font-size: 7vw;
   }
 
-  .project-1 {
+  .projcet-star-wars {
     margin-bottom: 25%;
   }
 }
@@ -178,7 +178,7 @@ a:hover {
   }
 
   /* ! First project */
-  .project-1 {
+  .projcet-star-wars {
     padding-top: 0;
     margin-bottom: 25%;
   }
@@ -220,7 +220,7 @@ a:hover {
   }
 
   /* ! Second project */
-  .project-2 {
+  .projcet-iss {
     margin-top: 5%;
   }
 
@@ -263,7 +263,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 1280px) {
-  .project-1 {
+  .projcet-star-wars {
     margin-bottom: 25%;
   }
 
