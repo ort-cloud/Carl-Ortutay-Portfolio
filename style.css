@@ -5,7 +5,8 @@
   border: 0;
 }
 
-html, body {
+html,
+body {
   background-color: gray;
 }
 
@@ -22,7 +23,7 @@ body {
   line-height: 1.5;
 }
 
-main{
+main {
   padding-bottom: 2.5rem;
 }
 
@@ -47,7 +48,7 @@ nav {
   align-items: center;
 }
 
-footer{
+footer {
   position: relative;
   bottom: 0;
   width: 100%;
@@ -79,7 +80,8 @@ header p {
 
 .project-pizza,
 .project-star-wars,
-.project-iss {
+.project-iss,
+.project-spew {
   margin: 10% 5%;
 }
 
@@ -97,7 +99,8 @@ header p {
 }
 
 .iss-scout-img,
-.pizza-img {
+.pizza-img,
+.spew-img {
   height: 60%;
   width: 90%;
 }
@@ -140,10 +143,10 @@ a:hover {
     font-size: 7vw;
   }
 
-  .project-star-wars,
+  /*   .project-star-wars,
   .project-pizza {
     margin-bottom: 25%;
-  }
+  } */
 }
 
 @media only screen and (min-width: 1024px) {
@@ -190,31 +193,40 @@ a:hover {
     font-size: large;
   }
 
-  .project-star-wars,
+  /*   .project-star-wars,
   .project-pizza {
     padding-top: 0;
     margin-bottom: 25%;
-  }
+  } */
 
-  #star-wars {
+  #star-wars,
+  #pizza {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .star-wars-img-tag {
+  .star-wars-img-tag,
+  .pizza-img-tag {
     order: 1;
     flex-grow: 1;
     width: 50%;
   }
 
-  .star-wars-img {
+  .star-wars-img,
+  .pizza-img {
     height: 100%;
     width: 100%;
   }
 
   #star-wars p {
+    order: -1;
+    width: 50%;
+    text-align: left;
+  }
+
+  #pizza p {
     order: -1;
     width: 50%;
     text-align: left;
@@ -237,7 +249,7 @@ a:hover {
   }
 
   #iss-scout,
-  #pizza {
+  #spew {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -245,14 +257,15 @@ a:hover {
   }
 
   .iss-scout-img-tag,
-  .pizza-img-tag {
+  .spew-img-tag {
     order: 1;
     flex-grow: 1;
     width: 50%;
   }
 
   .iss-scout-img,
-  .pizza-img {
+  .pizza-img,
+  .spew-img {
     height: 100%;
     width: 100%;
   }
@@ -264,7 +277,14 @@ a:hover {
     padding-left: 1%;
   }
 
-  #pizza p {
+  /*   #pizza p {
+    order: -1;
+    width: 50%;
+    text-align: left;
+    padding-left: 1%;
+  } */
+
+  #spew p {
     order: -1;
     width: 50%;
     text-align: left;
@@ -293,10 +313,6 @@ a:hover {
 }
 
 @media only screen and (min-width: 1280px) {
-  .project-star-wars {
-    margin-bottom: 25%;
-  }
-
   p {
     font-size: larger;
   }
